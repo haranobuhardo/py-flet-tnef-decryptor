@@ -1,0 +1,6 @@
+# as one file and compressed with UPX
+pyinstaller --noconfirm --onefile --upx-dir "D:/software/upx" --icon "D:/python/tnef-decryptor-flet/favicon.ico" --add-data "D:/python/tnef-decryptor-flet/tnef.py;."  --noconsole "D:/python/tnef-decryptor-flet/main.py"
+
+
+# as folder
+pyinstaller --noconfirm --icon "D:/python/tnef-decryptor-flet/favicon.ico" --add-data "D:/python/tnef-decryptor-flet/tnef.py;."  --noconsole "D:/python/tnef-decryptor-flet/main.py"
